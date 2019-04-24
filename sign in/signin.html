@@ -1,0 +1,110 @@
+<!DOCTYPEhtml>
+<html lang="en">
+    <head>
+        
+        <title>Mercedes-Sign up</title>
+        <meta charset="UTF-8">
+        
+         <link rel="icon" href="image/favicon-32x32.png">
+        <!-- CSS file-->
+        <link rel='stylesheet' href="css/signin.css">
+        <!-- normalize file-->
+        <link rel='stylesheet' href="css/normalise.css">
+        <!-- font awesome file-->
+        <link rel='stylesheet' href="css/fontawesome.min.css">
+         <!--[if lt IE 9] js-->
+       <script src="js/html5shiv.min.js"></script>
+       
+       <!--[endif]-->        
+    </head>
+    
+    <body>
+          <!-- jquary-->
+       <script src="js/jquery-3.3.1.min.js"></script>
+          
+<div class="container">
+        
+      <!-- Start Header-->
+      
+       <header>
+        
+            <div class="logo">
+            <a href="https://www.mercedes-benz.com/en/" target="_blank"><img class="imglogo" src="image/logo.jpg" alt="logo"></a>
+            </div>
+            <nav>
+                <ul class="nav">
+                   <li> <a href="../Marcedes web-site main/main.html">Marcedes-Benz</a></li>
+                   <li><a href="../Classes/Maecedes-benz.html">Classes</a></li>
+                   <li><a href="../support/support.html">Support</a></li>
+                   <li><a href="../sign in/signin.html">Sign Up</a></li>
+                </ul>
+            </nav>
+            <form class="form">
+                <ul>
+                
+                    <li class="li"> <input class="signin"type="text" placeholder="username" required ></li>
+                    <li class="li"> <input class="signin"type="password" placeholder="password" required></li>
+                    <li class="lilog"> <input type="submit" class="login" value=" log in" > </li>
+                    
+                </ul>
+            </form>
+            
+        </header>
+        <!-- End Of Header-->
+        
+        <div><img  class="ico"src="image/user.ico"</div>
+        <!-- start content-->
+        <div class="signin1">
+        
+         <div class="imgform2"></div>   
+         <form class="form2">
+       
+       <input class="input"type="text" required placeholder=" First Name" autofocus="on">
+       
+       <input class="input" type="text"required placeholder=" Last Name">
+       
+       <input class="input" type="email"required placeholder=" Email Address">
+       
+       <input class="input" type="text"required placeholder=" Phone Number">
+       
+       
+       
+                <input class="input" type="password"required placeholder=" Password" id="password""
+                 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" >
+                
+                <input class="input" type="password"required placeholder=" Repeat Password" id="repassword" onchange="changeMe();" >
+                 <div id="alert"></div>
+                 
+                 
+        
+        <input class="input" type="text"required placeholder=" Country">
+        
+        <input class="type" name="type" type="radio" required ><label>Male</label>
+        
+        <input class="type" name="type" type="radio" " required ><label>Famale</label><br>
+        
+        <input class="type" type="checkbox"><label>I accept the <a class="condition" href="#">Terms of Use </a> & <a class="condition" href="#">Privacy Policy</a></label>
+        
+        <input type="submit" id="submit" value="Creat my account">
+             
+         
+ 
+ 
+ 
+ 
+ 
+            
+         </form>   
+        
+        </div>
+        <!-- end content-->
+       
+        
+</div>
+<!--end container-->
+
+    <script src="js/js.js"> </script>
+    </body>
+     
+    
+</html>
